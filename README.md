@@ -33,6 +33,19 @@ eventdata-microsoft.live
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 Analyzing a Suspicious .pcap File Using Wireshrk
 
 I began analyzing the file using Wireshrk and using the filter (http.request or tls.handshake.type eq 1) and !(ssdp). I was able to find the following:
